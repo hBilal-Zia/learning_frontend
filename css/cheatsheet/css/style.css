@@ -51,6 +51,22 @@ body{
     margin: 20px 0px;
 }
 
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:black
+}
+
+a:hover{
+    color: red;   
+}
+
+a:active{
+    color: green
+}
+
+
 .categories{
     border: 1px #ccc solid;
     padding: 10px;
