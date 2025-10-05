@@ -35,3 +35,18 @@ body{
 
     margin: 20px 0px;
 }
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px #ccc dotted;
+    padding: 20px;
+    margin: 20px 0px;
+}
