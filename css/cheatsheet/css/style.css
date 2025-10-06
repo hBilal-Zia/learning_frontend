@@ -30,6 +30,10 @@ body{
     color: black;
 }
 
+.clr{
+    clear: both;
+}
+
 .box-1{
     background-color: #333;
     color: #fff;
@@ -116,4 +120,28 @@ a:active{
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
 }
